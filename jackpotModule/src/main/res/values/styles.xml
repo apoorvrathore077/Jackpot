@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SpinGridImage">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">@drawable/grid_cell_bg</item> <!-- Optional -->
+        <item name="android:padding">4dp</item>
+    </style>
+
+</resources>

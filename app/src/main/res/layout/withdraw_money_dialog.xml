@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dark"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+
+    <TextView
+        android:id="@+id/txtAddMoney"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:gravity="center_horizontal"
+        android:text="@string/withdraw_money"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_20ssp" />
+
+
+    <EditText
+        android:id="@+id/etWithdrawAmount"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:autofillHints="money"
+        android:background="@drawable/background_input"
+        android:gravity="center"
+        android:hint="@string/enter_amount_to_withdraw"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="#546E7A" />
+
+    <Button
+        android:id="@+id/btnWithdraw"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FF5722"
+        android:text="@string/withdraw"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_8ssp"
+        android:textStyle="bold" />
+</LinearLayout>

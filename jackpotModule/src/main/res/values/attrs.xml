@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Wheel3DView">
+        <attr name="itemHeight" format="dimension" />
+        <attr name="itemWidth" format="dimension" />
+        <attr name="visibleItems" format="integer" />
+        <attr name="borderColor" format="color" />
+        <attr name="borderWidth" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="passwordInput" type="id" />
+    <item name="btnLogin" type="id" />
+    <item name="switchText" type="id" />
+    <item name="usernameInput" type="id" />
+    <item name="appName" type="id" />
+</resources>
